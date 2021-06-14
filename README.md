@@ -2,7 +2,7 @@
 
 A express logger middleware powered by [bunyan](https://github.com/trentm/node-bunyan).
 
-[![Build Status](https://travis-ci.org/villadora/express-bunyan-logger.svg?branch=master)](https://travis-ci.org/villadora/express-bunyan-logger) [![dependencies](https://david-dm.org/villadora/express-bunyan-logger.svg)](https://david-dm.org/villadora/express-bunyan-logger)
+[![Build Status](https://travis-ci.org/chaudhryjunaid/express-bunyan-logger.svg?branch=master)](https://travis-ci.org/chaudhryjunaid/express-bunyan-logger) [![dependencies](https://david-dm.org/chaudhryjunaid/express-bunyan-logger.svg)](https://david-dm.org/chaudhryjunaid/express-bunyan-logger)
 
 
 ## Note
@@ -57,6 +57,10 @@ app.use(function(req, res, next) {
 ```
 
 ## Configuration
+
+### options.logger
+
+A custom instance of `bunyan` logger to use in the middleware. Useful if you already do all of the logging with `bunyan` and don't want this middleware to create a separate instance. Also useful if you want to pass a child logger into this middleware.
 
 ### options.format
 
