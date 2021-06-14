@@ -2,5 +2,8 @@
 node_modules
 *.log
 
+# no package-lock.json
+package-lock.json
+
 # no Webstorm info at all
 .idea/*
