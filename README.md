@@ -1,6 +1,6 @@
 # Express-bunyan-logger
 
-A express logger middleware powered by [bunyan](https://github.com/trentm/node-bunyan).
+A fork of the express logger middleware powered by [bunyan](https://github.com/trentm/node-bunyan). This fork contains fixes and updates that have not been merged upstream because the parent project is unmaintained. In particular, it includes support for node 12 and later. From a functionality point of view, this fork is exactly identical to its parent project.
 
 [![Build Status](https://travis-ci.org/chaudhryjunaid/express-bunyan-logger.svg?branch=master)](https://travis-ci.org/chaudhryjunaid/express-bunyan-logger) [![dependencies](https://david-dm.org/chaudhryjunaid/express-bunyan-logger.svg)](https://david-dm.org/chaudhryjunaid/express-bunyan-logger)
 
